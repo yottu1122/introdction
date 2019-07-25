@@ -1,0 +1,87 @@
+body{
+    background-image: url("../img/StockSnap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: inherit;
+    background-position: top center;
+    line-height: 1.7;
+}
+
+header{
+    border-bottom: solid #904644;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+
+}
+
+
+.main-nav li{
+    margin-left: 36px;
+}
+.main-nav a{
+    color: #904644;
+}
+
+.main-nav a:hover{
+    color:#0bd;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+
+}
+#icon {
+    color: #904644;
+    margin-left: 1.9em;
+}
+
+.profile-title{
+    color: #904644;
+    margin-left: 2.5em;
+}
+
+.profile {
+    margin: 5%;
+    margin-left: 5%;
+    display: flex;
+}
+
+#profile-img{
+    width: 30%;
+    height: 10%;
+}
+
+
+#profile-date{
+    margin-top: 3em;
+    color: #904644;
+    margin-left: 6.5em;
+}
+
+
+.btn {
+    text-decoration: none;
+    background: #904644;
+    padding: 14px 20px;
+    display: inline-block;
+    color: bisque;
+    border-radius: 5px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+
+.btn:hover {
+    background: #d52f25;
+
+}
